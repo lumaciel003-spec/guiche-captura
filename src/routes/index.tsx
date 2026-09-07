@@ -150,6 +150,7 @@ function Index() {
 
   return (
     <div className="min-h-screen bg-[#f4f4f4] font-sans">
+      <MetaPixelNoScript />
       {/* HEADER */}
       <header className="fixed top-0 z-50 h-[76px] w-full border-b-4 border-[#39b54a] bg-black text-white shadow-lg">
         <div className="container mx-auto flex h-full max-w-6xl items-center justify-between px-4">
