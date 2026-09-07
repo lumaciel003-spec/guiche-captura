@@ -192,8 +192,8 @@ function Index() {
       {/* BANNER */}
       <section id="top" className="relative mt-20">
         <img
-          src={capaEvento.url}
-          alt="Henrique & Juliano - Foz do Iguaçu/PR"
+          src={CAPA_EVENTO}
+          alt="Henrique & Juliano - Itajaí/SC"
           className="block w-full bg-[#e8e8e8] object-contain"
         />
         <div className="absolute bottom-[-1px] left-0 w-full rotate-180 overflow-hidden leading-[0]">
@@ -217,13 +217,13 @@ function Index() {
           <div className="mb-4 inline-block rounded-[20px] bg-[#e74c3c] px-4 py-2 text-sm font-bold text-white">
             {c.expired
               ? "🔥 PRÉ-VENDA ABERTA! 🔥"
-              : "🔥 PRÉ-VENDA EXCLUSIVA DIA 07/08 ÀS 12H! 🔥"}
+              : "🔥 PRÉ-VENDA EXCLUSIVA DIA 09/09 ÀS 12H! 🔥"}
           </div>
 
           <h1 className="mb-4 text-3xl font-bold text-gray-800 md:text-4xl">
             GARANTA SEU INGRESSO NA <span className="text-[#39b54a]">PRÉ-VENDA</span>
             <br />
-            HENRIQUE &amp; JULIANO - FOZ DO IGUAÇU/PR
+            HENRIQUE &amp; JULIANO - ITAJAÍ/SC
           </h1>
 
           <p className="mb-6 text-lg text-gray-600">
@@ -269,8 +269,8 @@ function Index() {
           <div className="grid gap-6 md:grid-cols-2">
             <div className="text-center">
               <img
-                src={capaEvento.url}
-                alt="Henrique & Juliano - Foz do Iguaçu/PR"
+                src={CAPA_EVENTO}
+                alt="Henrique & Juliano - Itajaí/SC"
                 className="mx-auto w-full max-w-sm rounded-lg shadow-md"
               />
             </div>
@@ -278,21 +278,21 @@ function Index() {
             <div className="space-y-4">
               <div className="rounded-lg bg-gray-50 p-4">
                 <h3 className="mb-3 text-xl font-bold text-[#39b54a]">
-                  🎙 Henrique &amp; Juliano em Foz do Iguaçu
+                  🎙 Henrique &amp; Juliano em Itajaí
                 </h3>
 
                 <div className="space-y-2 text-gray-700">
                   <p className="flex items-center">
                     <Calendar className="mr-3 h-4 w-4 text-[#39b54a]" />
-                    <strong>Data:</strong>&nbsp;24 de Outubro de 2026 (Sábado)
+                    <strong>Data:</strong>&nbsp;16 de Outubro de 2026 (Sexta-feira)
                   </p>
                   <p className="flex items-center">
                     <MapPin className="mr-3 h-4 w-4 shrink-0 text-[#39b54a]" />
-                    <strong>Local:</strong>&nbsp;Estádio do ABC - Foz do Iguaçu/PR
+                    <strong>Local:</strong>&nbsp;Centreventos - Itajaí/SC
                   </p>
                   <p className="flex items-center">
                     <Clock className="mr-3 h-4 w-4 text-[#39b54a]" />
-                    <strong>Horário:</strong>&nbsp;22:00
+                    <strong>Horário:</strong>&nbsp;A partir das 20:00
                   </p>
                   <p className="flex items-center">
                     <Star className="mr-3 h-4 w-4 text-[#39b54a]" />
@@ -303,7 +303,7 @@ function Index() {
 
               <div className="rounded-lg border-l-4 border-green-500 bg-green-50 p-4">
                 <p className="text-center font-bold text-green-700">
-                  🎉 <strong>PRÉ-VENDA DIA 07/08 ÀS 12H!</strong>
+                  🎉 <strong>PRÉ-VENDA DIA 09/09 ÀS 12H!</strong>
                   <br />
                   Garanta seu ingresso antes de todo mundo
                 </p>
