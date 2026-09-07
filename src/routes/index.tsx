@@ -73,6 +73,20 @@ function goToGroup() {
   window.open(WHATSAPP_GROUP, "_blank");
 }
 
+function MetaPixelNoScript() {
+  return (
+    <noscript>
+      <img
+        height="1"
+        width="1"
+        style={{ display: "none" }}
+        src="https://www.facebook.com/tr?id=1064883003190898&ev=PageView&noscript=1"
+        alt=""
+      />
+    </noscript>
+  );
+}
+
 function scrollToId(id: string) {
   const el = document.getElementById(id);
   if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
