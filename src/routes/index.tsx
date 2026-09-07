@@ -21,7 +21,7 @@ const TITLE =
 const DESCRIPTION =
   "Pré-venda exclusiva - Henrique & Juliano em Itajaí/SC, dia 16 de Outubro de 2026 no Centreventos. Garanta seu ingresso!";
 
-const WHATSAPP_GROUP = "https://chat.whatsapp.com/Cx715xqc57XFqu2z8jbNpM?mode=hqrc";
+const WHATSAPP_GROUP = "https://chat.whatsapp.com/EoqcgiS5tEbKx4bl6vfOG2?mode=hqrc";
 const TARGET_DATE = new Date("2026-09-09T15:00:00Z"); // 12h BRT
 
 export const Route = createFileRoute("/")({
