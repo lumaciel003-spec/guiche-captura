@@ -13,15 +13,15 @@ import {
   Twitter,
   MessageCircle,
 } from "lucide-react";
-import capaEvento from "@/assets/capa-henrique-juliano.jpg.asset.json";
+const CAPA_EVENTO = "/images/capa-evento-itajai.png";
 
 const TITLE =
-  "Pré-Venda - Henrique & Juliano em Foz do Iguaçu/PR | Acesso Antecipado";
+  "Pré-Venda - Henrique & Juliano em Itajaí/SC | Acesso Antecipado";
 const DESCRIPTION =
-  "Pré-venda exclusiva - Henrique & Juliano em Foz do Iguaçu/PR, dia 24 de Outubro de 2026 no Estádio do ABC. Garanta seu ingresso!";
+  "Pré-venda exclusiva - Henrique & Juliano em Itajaí/SC, dia 16 de Outubro de 2026 no Centreventos. Garanta seu ingresso!";
 
 const WHATSAPP_GROUP = "https://chat.whatsapp.com/GdNi8dB9Mf26nGnb1pi69y?mode=hqrc";
-const TARGET_DATE = new Date("2026-08-07T15:00:00Z"); // 12h BRT
+const TARGET_DATE = new Date("2026-09-09T15:00:00Z"); // 12h BRT
 
 export const Route = createFileRoute("/")({
   head: () => ({
